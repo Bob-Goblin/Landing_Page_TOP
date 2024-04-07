@@ -1,4 +1,5 @@
-a {
+a,
+.subtext {
     font-size: 18px;
     color: #E5E7Eb;
     text-decoration: none;
@@ -14,15 +15,13 @@ a {
     color: white; 
     padding:36px; 
 }
-.header {
-    padding:36px;
-}
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.header-top {
+.header-top,
+.header-bottom {
     display: flex;
     justify-content: space-between;
     margin-bottom: 36px;
@@ -31,17 +30,6 @@ a {
     font-size: 24px;
     color: #f9faf8;
 }
-.header-bottom {
-    display: flex;
-    justify-content: space-between;
-    
-}
-.register {
-   width: 400px;
-   
-   gap: 16px;
-   flex-shrink: 0;
-}
 .title {
     font-size: 48px;
     font-weight: bolder;
@@ -49,8 +37,6 @@ a {
     margin-bottom: 8px;
 }
 .subtext {
-    font-size: 18px;
-    color: #f9faf8;
     margin-bottom: 16px;
 }
 .sign-up {
@@ -59,8 +45,35 @@ a {
     padding: 8px 16px;
     border-radius: 8px;
 }
-
 ul {
     list-style: none;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.body-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 36px;
+    gap: 52px;
+}
+.container {
+    display: flex;
+    gap: 52px;
 
+}
+.info-img,
+.text {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+.body-top-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
