@@ -4,6 +4,14 @@ a,
     color: #E5E7Eb;
     text-decoration: none;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+a:hover {
+    font-style: italic;
+}
 .nav {
     display: flex;
     flex-direction: row;
@@ -13,7 +21,16 @@ a,
 .footer {
     background: #1F2937;
     color: white; 
-    padding:36px; 
+    padding:52px; 
+    ;
+
+}
+.header,
+.body,
+
+
+.header-top {
+    align-items: baseline;
 }
 .footer {
     display: flex;
@@ -39,7 +56,8 @@ a,
 .subtext {
     margin-bottom: 16px;
 }
-.sign-up {
+.sign-up,
+.box{
     background: #3882f6;
     color: white;
     padding: 8px 16px;
@@ -48,23 +66,17 @@ a,
 ul {
     list-style: none;
 }
-.body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 .body-top {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 36px;
+    justify-content: space-around;
+    margin-top: 36px;
     gap: 52px;
 }
 .container {
     display: flex;
     gap: 52px;
-
 }
 .info-img,
 .text {
@@ -76,4 +88,42 @@ ul {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+}   
+.body-middle {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7Eb;
+    color: #1f2937;
+    padding: 52px;
+    font-size: 36px;
+    font-style: light italic, italic;
+}
+div.author {
+    font-weight: bolder;
+    font-size: 26px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 36px;
+}
+.body-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 52px;
+    
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ;
+    padding: 52px;
+    gap: 52px;
+}
+.box button {
+    border: 1px solid white;
+}
+.box-title {
+    font-size: 24px;
+    font-weight: bolder;
 }
