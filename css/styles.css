@@ -117,4 +117,62 @@ main {
     .text {
         color:  ;
     }
+    /*Style section 3 and contents*/
+
+.section3 {
+    flex: 1;
+    background-color: #E5E7Eb;
+    color: #1f2937;
+    padding: 52px;
+    font-size: 36px;
+    font-style: light italic, italic;
+}
+
+.quote-container {
+    padding: 3% 6% ;
+}
+
+.author {
+    text-align: right;
+    font-size:24px ;
+    font-weight: bolder;
+}
+/*Style section 4 and contents*/
+
+.section4 {
+    flex: 1;
+    padding: 5% 8%;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    background: #3882f6;
+    color: white;
+    padding: 3% 6%;
+    border-radius: 8px;
+    gap: 2%;
     
+}
+
+.box button {
+    border: 1px solid white;
+    width: 300px ;
+}
+
+.box-title {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+/*Style footer and contents*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1F2937;
+    color: white;         
+    padding:52px; 
+}
+
