@@ -55,3 +55,66 @@ main {
     display: flex;
     flex-direction: column;
 }
+/*Style Section 1 and contents*/
+
+.section1 {
+    display: flex;
+    flex: 1;
+    background: #1F2937;
+    color: white; 
+    padding:5%;
+    gap: 12px;
+    }
+    
+    .sign-up {
+        background: #3882f6;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 8px;
+        width: 300px;;
+    }
+    
+    .h1 {
+        font-size: 48px;
+        font-weight: bolder;
+    }
+    
+    /*Style section 2 and contents*/
+    
+    .section2 {
+        display: flex;
+        flex:1;     
+        flex-direction: column; 
+        justify-content: space-between;
+        align-items: center ;
+        padding:3% 6% ;
+    }
+    
+    
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+        gap: 52px;
+        
+    }
+    
+    .container img {
+        width: 250px;
+        height: 250px;
+        border: 2px solid #3882f6;
+    }
+    
+    .info {
+        width: 250px;
+    }
+    
+    .title {
+        font-size: 36px;
+        font-weight: bolder;
+    }
+    
+    .text {
+        color:  ;
+    }
+    
