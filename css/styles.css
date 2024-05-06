@@ -1,129 +1,57 @@
+/*Style body */
+body {
+    display: flex;
+    flex-direction: column; 
+    margin: 0;
+    padding: 0;
+}
+
+/*Style Header and contents*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: #1F2937;
+    color: white; 
+    padding: 0 6%;
+}
+
+.logo {
+    font-size: 24px;
+    margin-top: 24px;;
+    
+}
+
+ul {
+    display: flex;
+    gap: 52px;
+    list-style: none;
+    margin-top: 24px;
+}
+
+img {
+    border-radius: 25px;
+
+}
+
 a,
 .subtext {
     font-size: 18px;
     color: #E5E7Eb;
     text-decoration: none;
 }
-body {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-}
+
 a:hover {
     font-style: italic;
 }
-.nav {
+
+nav {
     display: flex;
     flex-direction: row;
     gap: 16px;
 }
-.header,
-.footer {
-    background: #1F2937;
-    color: white; 
-    padding:52px; 
-    ;
 
-}
-.header,
-.body,
-
-
-.header-top {
-    align-items: baseline;
-}
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.header-top,
-.header-bottom {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 36px;
-}
-.logo {
-    font-size: 24px;
-    color: #f9faf8;
-}
-.title {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
-    margin-bottom: 8px;
-}
-.subtext {
-    margin-bottom: 16px;
-}
-.sign-up,
-.box{
-    background: #3882f6;
-    color: white;
-    padding: 8px 16px;
-    border-radius: 8px;
-}
-ul {
-    list-style: none;
-}
-.body-top {
+main {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 36px;
-    gap: 52px;
-}
-.container {
-    display: flex;
-    gap: 52px;
-}
-.info-img,
-.text {
-    width: 150px;
-    height: 150px;
-    border-radius: 20px;
-}
-.body-top-title {
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1f2937;
-}   
-.body-middle {
-    display: flex;
-    flex-direction: column;
-    background-color: #E5E7Eb;
-    color: #1f2937;
-    padding: 52px;
-    font-size: 36px;
-    font-style: light italic, italic;
-}
-div.author {
-    font-weight: bolder;
-    font-size: 26px;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 36px;
-}
-.body-bottom {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 52px;
-    
-}
-.box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: ;
-    padding: 52px;
-    gap: 52px;
-}
-.box button {
-    border: 1px solid white;
-}
-.box-title {
-    font-size: 24px;
-    font-weight: bolder;
 }
